@@ -55,7 +55,21 @@
 		</dependency>
 		
 	</dependencies>
-
+ <profiles>
+	<profile>
+            <id>sonar</id>
+            <activation>
+              <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                 <sonar.host.url>http://10.138.90.105:9000</sonar.host.url>
+                <!--  <sonar.jdbc.url>jdbc:derby://localhost:1527/sonar</sonar.jdbc.url>
+                 <sonar.jdbc.driver>org.apache.derby.jdbc.ClientDriver</sonar.jdbc.driver> -->
+                 <sonar.jdbc.username>admin</sonar.jdbc.username>
+                 <sonar.jdbc.password>admin</sonar.jdbc.password>
+            </properties>
+          </profile>
+</profiles>
 	<build>
 		<plugins>
 			<plugin>
