@@ -6,7 +6,7 @@
 	<groupId>com.tcs</groupId>
 	<artifactId>RestCodeGeneration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>RestCodeGeneration</name>
 	<description>Demo project for Spring Boot</description>
@@ -71,12 +71,12 @@
           </profile>
 </profiles>
 	<build>
-		<plugins>
+		<!--<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+		</plugins>-->
 	</build>
 
 
