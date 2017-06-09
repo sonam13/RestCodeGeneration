@@ -20,7 +20,7 @@ public class RestCodeGenerationController {
 	@Autowired 
 	RestCodeGenerationService restCodeGenerationService;
 	
-	@RequestMapping(value = "/restCodeGeneration", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody String getClients(@RequestBody Request request) throws JSONException {
 		String msg=null;
 		try
